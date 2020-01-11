@@ -776,8 +776,8 @@ function parseLineInfo(line) {
 
 function setBounds(firstLineError, lastLineError) {
     if (!longStackTracesIsSupported()) return;
-    var firstStackLines = (firstLineError.stack || "").split("\n");
-    var lastStackLines = (lastLineError.stack || "").split("\n");
+    var firstStackLines = typeof firstLineError.stack === "array" ? firstLineError.stack.split("\n") : 0;
+    var lastStackLines = typeof firstLineError.stack === "array" ? lastLineError.stack.split("\n") : 0;
     var firstIndex = -1;
     var lastIndex = -1;
     var firstFileName;
