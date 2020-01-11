@@ -5,7 +5,6 @@ gh-pages
 test/browser/bundle.js
 test/browser/worker_bundle.js
 zalgo.js
-js/release
 js/tmp
 coverage/*
 .vscode
