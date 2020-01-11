@@ -9,6 +9,8 @@
 
 **Got a question?** Join us on [stackoverflow](http://stackoverflow.com/questions/tagged/bluebird), the [mailing list](https://groups.google.com/forum/#!forum/bluebird-js) or chat on [IRC](https://webchat.freenode.net/?channels=#promises)
 
+# This is a modified version of Bluebird library to make usable with FxServer Fivem
+
 # Introduction
 
 Bluebird is a fully featured promise library with focus on innovative features and performance
